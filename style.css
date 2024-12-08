@@ -1,10 +1,10 @@
 @font-face {
     font-family: ppb;
-    src: url(./Asserts/pp-neue-montreal-cufonfonts/ppneuemontreal-book.otf);
+    src: url(./Asserts/pp-neue-montreal-cufonfonts/ppneuemontreal-book.woff2);
 }
 @font-face {
     font-family: ppbi;
-    src: url(./Asserts/PPEditorialNew-UltralightItalic-BF644b214ff1e9b.otf);
+    src: url(./Asserts/PPEditorialNew-UltralightItalic-BF644b214ff1e9b.woff2);
 }
 
 *{
