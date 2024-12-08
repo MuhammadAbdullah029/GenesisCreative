@@ -1,3 +1,8 @@
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('main'),
+    smooth: true
+});
+
 function page3Anim(t, nam) {
     const text = t;
         const wrapper = document.querySelector(nam);
@@ -29,3 +34,25 @@ var swiper = new Swiper(".mySwiper", {
       clickable: true,
     },
   });
+
+
+document.querySelector(".vid").addEventListener('mouseenter', function(dets){
+    gsap.to(".music", {
+        display: "block"
+    })
+    document.querySelector(".vid").style.cursor = "none";
+})
+document.querySelector(".vid").addEventListener('mousemove', function(dets){
+    gsap.to(".music", {
+        x: dets.x + 15,
+        y: dets.y,
+        display: "block"
+    })
+})
+document.querySelector(".vid").addEventListener('mouseleave', function(dets){
+    gsap.to(".music", {
+        display: "none"
+    })
+    // document.querySelector(".vid").style.cursor = "default";
+
+})
