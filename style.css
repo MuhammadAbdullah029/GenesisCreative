@@ -885,6 +885,10 @@ nav{
   height: 35%;
 }
 
+.music{
+  display: none;
+}
+
 /* Page 3 */
 
 .page3{
